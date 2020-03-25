@@ -145,7 +145,7 @@ const formSchema = yup.object().shape({
         
         
         
-        <button disabled={buttonDisabled}>Become a</button>
+        <button disabled={buttonDisabled}>Become a Wizard </button>
 
         <pre>{JSON.stringify(post, null, 3)}</pre>
       </form>
