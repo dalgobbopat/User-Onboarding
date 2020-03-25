@@ -101,6 +101,7 @@ const formSchema = yup.object().shape({
           <input
             type="text"
             name="name"
+            placeholder='Name'
             value={formState.name}
             onChange={inputChange}
           />
@@ -111,6 +112,7 @@ const formSchema = yup.object().shape({
           <input
             type="text"
             name="email"
+            placeholder='Email'
             value={formState.email}
             onChange={inputChange}
           />
@@ -123,6 +125,7 @@ const formSchema = yup.object().shape({
           <input
             type='password'
             name="password"
+            placeholder='Password'
             value={formState.motivation}
             onChange={inputChange}
           />
@@ -141,7 +144,8 @@ const formSchema = yup.object().shape({
         </label><br/>
         
         
-        <button disabled={buttonDisabled}>Submit</button>
+        
+        <button disabled={buttonDisabled}>Become a</button>
 
         <pre>{JSON.stringify(post, null, 3)}</pre>
       </form>
